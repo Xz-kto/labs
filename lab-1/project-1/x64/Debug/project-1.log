@@ -1,9 +1,2 @@
 ﻿  project-1.cpp
-C:\Users\ruots\source\repos\project-1\project-1\project-1.cpp(12,19): error C2664: "HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)": невозможно преобразовать аргумент 1 из "const char [9]" в "LPCWSTR"
-  C:\Users\ruots\source\repos\project-1\project-1\project-1.cpp(12,30):
-  Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\fileapi.h(92,1):
-   см. объявление "CreateFileW"
-  C:\Users\ruots\source\repos\project-1\project-1\project-1.cpp(12,19):
-  при попытке сопоставить список аргументов "(const char [9], unsigned long, int, int, int, int, int)"
-  
+  project-1.vcxproj -> C:\Users\ruots\source\labs\lab-1\x64\Debug\project-1.exe

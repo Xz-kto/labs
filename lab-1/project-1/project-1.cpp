@@ -9,7 +9,8 @@ int main()
     setlocale(LC_ALL, "Russian");
 
     // Открываем файл
-    HANDLE File = CreateFile("file.rar", GENERIC_READ, FILE_SHARE_READ, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
+    PCWSTR filename = L"file.rar";
+    HANDLE File = CreateFile(filename, GENERIC_WRITE, FILE_SHARE_READ, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
 
     if (File == INVALID_HANDLE_VALUE)
     {
